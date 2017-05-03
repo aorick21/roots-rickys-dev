@@ -1,0 +1,23 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "foundation-sites": "6.3.1",
+    "animate.css": "animate-css#^3.5.2",
+    "owl.carousel": "owl2#^0.1.0"
+  },
+  "overrides": {
+    "owl.carousel": {
+      "main": [
+        "./src/js/owl.carousel.js",
+        "./src/css/owl.carousel.css",
+        "./src/css/owl.theme.default.css"
+        ]
+    }
+  }
+}
